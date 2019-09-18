@@ -1,0 +1,59 @@
+# I really don't like YAML.
+# The configuration should be rewritten with Dhall in the future.
+
+##### Project information #####
+site_name: Somewhere solitary
+site_description: "An example of misuse of project documentation generator."
+site_author: Andy Pan
+site_url: https://andy0130tw.github.io/
+# copyright: ""
+
+##### Repository information #####
+repo_name: andy0130tw/notes
+repo_url: https://github.com/andy0130tw/notes
+edit_uri: ""  # leave empty to disable
+
+##### Building & Deploying #####
+dev_addr: '0.0.0.0:8787'
+# docs_dir: docs
+# site_dir: site
+# remote_branch: gh-pages
+# remote_name: origin
+
+##### Customizations #####
+# extra_css: []
+# extra_javascript: []
+# extra_templates: []
+# extra: {}
+
+theme:
+  name: material
+  custom_dir: 'theme'
+
+  palette:
+    primary: 'blue'
+    accent: 'orange'
+  logo:
+    icon: '&#xe6dd;'  # bubble_chart
+  # feature:
+  #   tabs: true
+
+markdown_extensions:
+  ### defaults
+  # - admonition  # not working
+  # - codehilite:
+  #     guess_lang: false
+  # - def_list
+  # - footnotes
+  # - meta
+  # - toc:
+  #     permalink: true
+
+# plugins:
+#   - 'search'
+
+nav:
+  - Home: index.md
+  - CommonMark support for mkdocs: mkdocs-commonmark.md
+
+# google_analytics: ['', '']
