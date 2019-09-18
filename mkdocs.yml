@@ -5,7 +5,7 @@
 site_name: Somewhere solitary
 site_description: "An example of misuse of project documentation generator."
 site_author: Andy Pan
-site_url: https://andy0130tw.github.io/
+site_url: https://notes.kuang0.me/
 # copyright: ""
 
 ##### Repository information #####
@@ -35,8 +35,8 @@ theme:
     accent: 'orange'
   logo:
     icon: '&#xe6dd;'  # bubble_chart
-  # feature:
-  #   tabs: true
+  feature:
+    tabs: true
 
 markdown_extensions:
   ### defaults
